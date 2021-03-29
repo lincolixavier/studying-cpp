@@ -7,3 +7,4 @@
 - Core Concepts (Why/What C++)
 - Commands cout/cin
 - Variable Types
+- Multiple Variables Declarations / Constants / #Define
