@@ -8,3 +8,5 @@
 - Commands cout/cin
 - Variable Types
 - Multiple Variables Declarations / Constants / #Define
+- Increment and Decrement of Variables, Post and pre-fixed Operators
+
