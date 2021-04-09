@@ -9,4 +9,7 @@
 - Variable Types
 - Multiple Variables Declarations / Constants / #Define
 - Increment and Decrement of Variables, Post and pre-fixed Operators
-
+- While Loop / Break command
+- Do While Loop / Break command
+- For Loop
+- Arrays/SizeOf
