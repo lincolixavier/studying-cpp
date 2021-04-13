@@ -14,7 +14,9 @@
 - For Loop
 - Arrays/SizeOf
 - Two-dimensional Array / Matrix
+- Arguments -> int argc & char *argv[]
+
 
 #### Small Programs
 
-- Hangman Game - Work in Progress
+- Hangman Gameress
