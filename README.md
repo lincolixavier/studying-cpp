@@ -15,8 +15,11 @@
 - Arrays/SizeOf
 - Two-dimensional Array / Matrix
 - Arguments -> int argc & char *argv[]
+- Functions:  Declarations, Args, Returns & Prototyping
+- String function strcmp() From <string.h> lib
+
 
 
 #### Small Programs
 
-- Hangman Gameress
+- Hangman Game
