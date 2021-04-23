@@ -23,3 +23,5 @@
 #### Small Programs
 
 - Hangman Game
+- Finobacci Sequence
+- Fatorial Calculation
