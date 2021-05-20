@@ -17,7 +17,7 @@
 - Arguments -> int argc & char *argv[]
 - Functions:  Declarations, Args, Returns & Prototyping
 - String function strcmp() From <string.h> lib
-
+- Data Structures: Stacks, Queues, Lists
 
 
 #### Small Programs
