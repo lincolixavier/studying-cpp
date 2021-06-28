@@ -7,15 +7,15 @@ struct Car {
   int power;
   int maxSpeed;
 
-  void insert(string name, string color, int power, int maxSpeed ){
-    name = name;
-    color = color;
-    power = power;
-    maxSpeed = maxSpeed;
+  void insert(string sname, string scolor, int spower, int smaxSpeed ){
+    name = sname;
+    color = scolor;
+    power = spower;
+    maxSpeed = smaxSpeed;
   }
 
   void show(){
-    cout << "Nome: " << name << endl;
+    cout << "\nNome: " << name << endl;
     cout << "Cor: " << color << endl;
     cout << "Potência: " << power << endl;
     cout << "Velocidade Máxima: " << maxSpeed << endl;
@@ -23,10 +23,14 @@ struct Car {
 };
 
 int main() { 
-  Car Monza;
+  Car *Cars = new Car[3];
+  Cars[0].insert("Super Monza", "Red", 110, 300);
+  Cars[1].insert("Chev Impala 69", "Black", 310, 400);
+  Cars[2].insert("Camaro", "Amarelo", 210, 300);
 
-  Monza.insert("Super Monza", "Red", 110, 300);
-  Monza.show();
+  for(int i = 0; i < 3 ; i++){
+    Cars[i].show();
+  }
 
   return 0;
 }  
