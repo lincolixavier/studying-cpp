@@ -2,7 +2,8 @@
 
 using namespace std;
 
-int main(){
+int main()
+{
 
   string car = "Car";
   string *pointerCar;
@@ -18,5 +19,4 @@ int main(){
   cout << car;
 
   return 0;
-
 }

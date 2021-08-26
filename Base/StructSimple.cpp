@@ -1,14 +1,16 @@
 #include <iostream>
-using namespace std; 
+using namespace std;
 
-struct Car {
+struct Car
+{
   string name;
   string color;
   int power;
   int maxSpeed;
 };
 
-int main() { 
+int main()
+{
   Car Monza;
   Car Gol;
 
@@ -28,4 +30,4 @@ int main() {
   cout << "Color: " << Gol.color << endl;
 
   return 0;
-}  
+}

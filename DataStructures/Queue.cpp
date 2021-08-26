@@ -3,9 +3,10 @@
 #include <stack>
 using namespace std;
 
-int main() {
+int main()
+{
 
-    queue <string> Cards;
+    queue<string> Cards;
 
     Cards.push("Dragão Branco de Olhos Azuis");
     Cards.push("Mago Negro");
@@ -17,10 +18,11 @@ int main() {
     cout << "_________________________________ \n";
     int tam = Cards.size();
 
-    while(!Cards.empty()){
-            cout << "O " << Cards.front() << " Pegar o lanche e sair da fila" << endl;
-            Cards.pop();
+    while (!Cards.empty())
+    {
+        cout << "O " << Cards.front() << " Pegar o lanche e sair da fila" << endl;
+        Cards.pop();
     }
     cout << "_________________________________ \n A fila esta vazia.";
-return 0;
+    return 0;
 }
