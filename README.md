@@ -1,4 +1,4 @@
-# Studying C++
+# Learning C++
 
 ### Progress
 
@@ -14,11 +14,12 @@
 - For Loop
 - Arrays/SizeOf
 - Two-dimensional Array / Matrix
-- Arguments -> int argc & char *argv[]
-- Functions:  Declarations, Args, Returns & Prototyping
+- Arguments -> int argc & char \*argv[]
+- Functions: Declarations, Args, Returns & Prototyping
 - String function strcmp() From <string.h> lib
 - Data Structures: Stacks, Queues, Lists
-
+- Files - Ofstream / Ifstrem / Fstream
+- Iterator
 
 #### Small Programs
 
