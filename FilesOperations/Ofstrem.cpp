@@ -7,7 +7,7 @@ int main()
 {
   ofstream file;
 
-  file.open("C_PlusPlusFile.txt", ios::app);
+  file.open("text.txt", ios::app);
 
   file << "Learning C++";
 
